@@ -256,45 +256,60 @@ async function handleImageUpload(e) {
 
 // --- RESOURCE LOADING ---
 async function loadAll() {
+    console.log("Admin: Synchronizing Data Layers...");
     try {
+        // Fetch all with individual catch blocks to prevent total collapse
+        const safeFetch = async (promise, fallback = null) => {
+            try { return await promise; } catch(e) { console.warn("Partial fetch fail:", e); return fallback; }
+        };
+
         const [pSnap, bSnap, sSnap, aSnap, cSnap, stSnap] = await Promise.all([
             getDocs(collection(db, 'products')),
             getDocs(collection(db, 'brands')),
-            getDoc(doc(db, 'settings', 'shop')),
-            getDoc(doc(db, 'settings', 'admins')),
+            safeFetch(getDoc(doc(db, 'settings', 'shop'))),
+            safeFetch(getDoc(doc(db, 'settings', 'admins'))),
             getDocs(collection(db, 'categories')),
-            getDoc(doc(db, 'stats', 'site'))
+            safeFetch(getDoc(doc(db, 'stats', 'site')))
         ]);
         
-        allProducts = []; pSnap.forEach(d => allProducts.push({id: d.id, ...d.data()}));
-        allBrands = []; bSnap.forEach(d => allBrands.push({id: d.id, ...d.data()}));
+        allProducts = []; 
+        if(pSnap) pSnap.forEach(d => allProducts.push({id: d.id, ...d.data()}));
         
-        // syncExistingBrands() removed - it triggers too many writes on load.
-        // Sync should be done manually or once.
-
+        allBrands = []; 
+        if(bSnap) bSnap.forEach(d => allBrands.push({id: d.id, ...d.data()}));
+        
         dynamicCategories = {};
-        cSnap.forEach(d => dynamicCategories[d.id] = d.data().types || []);
+        if(cSnap) cSnap.forEach(d => dynamicCategories[d.id] = d.data().types || []);
         
-        if(sSnap.exists()) {
+        if(sSnap && sSnap.exists()) {
             const d = sSnap.data();
-            document.getElementById('set-wa').value = d.whatsapp || '';
-            document.getElementById('set-insta').value = d.instagram || '';
+            const waInput = document.getElementById('set-wa');
+            const instaInput = document.getElementById('set-insta');
+            if(waInput) waInput.value = d.whatsapp || '';
+            if(instaInput) instaInput.value = d.instagram || '';
         }
-        if(aSnap.exists()) {
-            document.getElementById('set-admin-emails').value = (aSnap.data().emails || []).join(', ');
+        if(aSnap && aSnap.exists()) {
+            const emailsInput = document.getElementById('set-admin-emails');
+            if(emailsInput) emailsInput.value = (aSnap.data().emails || []).join(', ');
         }
-        if(stSnap.exists()) {
+        if(stSnap && stSnap.exists()) {
             const d = stSnap.data();
-            document.getElementById('stat-visits').textContent = d.visits || 0;
-            document.getElementById('stat-wa-clicks').textContent = d.whatsapp_clicks || 0;
+            const vStat = document.getElementById('stat-visits');
+            const wStat = document.getElementById('stat-wa-clicks');
+            if(vStat) vStat.textContent = d.visits || 0;
+            if(wStat) wStat.textContent = d.whatsapp_clicks || 0;
         }
         
         // Refresh Category Manager initial value
-        const curCat = document.getElementById('cat-mgr-select').value;
-        document.getElementById('cat-mgr-input').value = (dynamicCategories[curCat] || []).join(', ');
+        const catMgrSel = document.getElementById('cat-mgr-select');
+        const catMgrInp = document.getElementById('cat-mgr-input');
+        if(catMgrSel && catMgrInp) {
+            const curCat = catMgrSel.value;
+            catMgrInp.value = (dynamicCategories[curCat] || []).join(', ');
+        }
 
         renderAll();
-    } catch (e) { console.error("Load failed:", e); }
+    } catch (e) { console.error("Critical Load failed:", e); }
 }
 
 async function ensureBrandExists(brandName) {
