@@ -728,7 +728,7 @@ function buildCartWAMessage(name, phone, items, total) {
     const itemsList = items.map((it, i) => {
         const liveProduct = allProducts.find(p => p.id === it.id);
         const imgUrl = liveProduct ? getProductImage(liveProduct) : it.img;
-        const finalImg = imgUrl.startsWith('http') ? imgUrl : `${window.location.origin}/${imgUrl.replace(/^\\//, '')}`;
+        const finalImg = imgUrl.startsWith('http') ? imgUrl : `${window.location.origin}/${imgUrl.replace(/^\//, '')}`;
         
         return `${i+1}. *${it.name}* (${it.size}) x ${it.qty} — ₹${it.price * it.qty}\n   🖼️ Image Link: ${finalImg}`;
     }).join('\n\n');
@@ -754,7 +754,7 @@ ${itemsList}
 function buildSingleProductWA(p, size) {
     const imgUrl = getProductImage(p);
     // Include full URL if image is relative for WhatsApp preview
-    const finalImg = imgUrl.startsWith('http') ? imgUrl : `${window.location.origin}/${imgUrl.replace(/^\\//, '')}`;
+    const finalImg = imgUrl.startsWith('http') ? imgUrl : `${window.location.origin}/${imgUrl.replace(/^\//, '')}`;
 
     return `🌟 *PRODUCT INQUIRY* 🌟
 
@@ -856,34 +856,13 @@ function renderRecentlyViewed() {
     `).join('');
 }
 
-// 31. PWA Logic (Zero-Cache Pro Edition)
-let deferredPrompt;
 function initPWA() {
-    window.addEventListener('beforeinstallprompt', (e) => {
-        e.preventDefault();
-        deferredPrompt = e;
-        showInstallButton();
-    });
-
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw-v6.js').then(reg => {
-            reg.onupdatefound = () => {
-                const installingWorker = reg.installing;
-                installingWorker.onstatechange = () => {
-                    if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                        // New content is available; please refresh.
-                        window.location.reload();
-                    }
-                };
-            };
-        }).catch(err => console.log('SW registration failed'));
-
-        // Handle controller change (e.g. skipWaiting)
-        let refreshing = false;
-        navigator.serviceWorker.addEventListener('controllerchange', () => {
-            if (refreshing) return;
-            refreshing = true;
-            window.location.reload();
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            for(let registration of registrations) {
+                registration.unregister();
+                console.log("Service Worker Unregistered to clear cache");
+            }
         });
     }
 }

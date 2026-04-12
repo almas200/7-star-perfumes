@@ -728,7 +728,7 @@ function buildCartWAMessage(name, phone, items, total) {
     const itemsList = items.map((it, i) => {
         const liveProduct = allProducts.find(p => p.id === it.id);
         const imgUrl = liveProduct ? getProductImage(liveProduct) : it.img;
-        const finalImg = imgUrl.startsWith('http') ? imgUrl : `${window.location.origin}/${imgUrl.replace(/^\\//, '')}`;
+        const finalImg = imgUrl.startsWith('http') ? imgUrl : `${window.location.origin}/${imgUrl.replace(/^\//, '')}`;
         
         return `${i+1}. *${it.name}* (${it.size}) x ${it.qty} — ₹${it.price * it.qty}\n   🖼️ Image Link: ${finalImg}`;
     }).join('\n\n');
@@ -754,7 +754,7 @@ ${itemsList}
 function buildSingleProductWA(p, size) {
     const imgUrl = getProductImage(p);
     // Include full URL if image is relative for WhatsApp preview
-    const finalImg = imgUrl.startsWith('http') ? imgUrl : `${window.location.origin}/${imgUrl.replace(/^\\//, '')}`;
+    const finalImg = imgUrl.startsWith('http') ? imgUrl : `${window.location.origin}/${imgUrl.replace(/^\//, '')}`;
 
     return `🌟 *PRODUCT INQUIRY* 🌟
 
