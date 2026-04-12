@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Amber Oud Extraordinaire",
+        "brand": "Ibraaq",
+        "category": "perfume",
+        "type": "oud",
+        "price": 3200,
+        "description": "A very royal scent with long lasting notes of amber and woody oud.",
+        "tag": "New",
+        "featured": true,
+        "available": true,
+        "sizes": [
+            { "label": "50ml", "price": 1800 },
+            { "label": "100ml", "price": 3200 }
+        ],
+        "image": "p1.jpeg"
+    },
+    {
+        "name": "Classic Kalmi Dates",
+        "brand": "Seven Star",
+        "category": "dates",
+        "type": "",
+        "price": 800,
+        "description": "Premium imported Kalmi dates.",
+        "tag": "Bestseller",
+        "featured": true,
+        "available": true,
+        "sizes": [
+            { "label": "500g", "price": 400 },
+            { "label": "1kg", "price": 800 }
+        ],
+        "image": "p5.jpeg"
+    }
+]

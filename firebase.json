@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "7-star perfumes",
+    "public": "production_dist",
     "ignore": [
       "firebase.json",
       "**/.*",
