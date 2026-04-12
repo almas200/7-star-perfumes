@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "7-star perfumes",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
