@@ -1,10 +1,13 @@
 {
   "hosting": {
-    "public": "production_dist",
+    "public": "7-star perfumes",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
+  },
+  "firestore": {
+    "rules": "7-star perfumes/firestore.rules"
   }
 }

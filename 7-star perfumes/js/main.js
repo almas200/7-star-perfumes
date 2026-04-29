@@ -730,24 +730,29 @@ function buildCartWAMessage(name, phone, items, total) {
         const imgUrl = liveProduct ? getProductImage(liveProduct) : it.img;
         const finalImg = imgUrl.startsWith('http') ? imgUrl : `${window.location.origin}/${imgUrl.replace(/^\//, '')}`;
         
-        return `${i+1}. *${it.name}* (${it.size}) x ${it.qty} — ₹${it.price * it.qty}\n   🖼️ Image Link: ${finalImg}`;
+        return `${i+1}. *${it.name}* (${it.size})
+   Qty: ${it.qty} — ₹${it.price * it.qty}
+   🔗 Photo: ${finalImg}`;
     }).join('\n\n');
 
-    return `🌟 *SEVEN STAR PERFUME - NEW ORDER* 🌟
-🔖 Order ID: ${orderId}  
-🕒 Time: ${dateStr}
+    return `⭐ *SEVEN STAR PERFUME - NEW ORDER* ⭐
 
-👤 *Customer Information:*
-Name: ${name}
-Phone: ${phone}
+📝 *Order ID:* ${orderId}
+📅 *Date:* ${dateStr}
 
-🛍️ *Order Summary:*
+👤 *CUSTOMER DETAILS:*
+• Name: ${name}
+• Phone: ${phone}
+
+📦 *ORDER SUMMARY:*
 ${itemsList}
 
+━━━━━━━━━━━━━━━━━━
 💰 *GRAND TOTAL: ${total}*
-📦 *Fulfillment:* Cash on Pickup
+━━━━━━━━━━━━━━━━━━
 
-✨ Thank you for choosing Seven Star Perfume!
+✅ *Method:* Cash on Pickup
+✨ Thank you for shopping with Seven Star!
 🌐 https://sevenstarperfume.com`;
 }
 

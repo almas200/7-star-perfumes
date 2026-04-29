@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin.html
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://seven-star-perfume.web.app/sitemap.xml

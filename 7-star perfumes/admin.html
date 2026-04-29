@@ -30,8 +30,8 @@
         .nav-item i { font-size: 22px; }
         .sidebar-footer { margin-top: auto; padding-top: 2rem; border-top: 1px solid var(--gold-border); }
         
-        .admin-main { flex: 1; margin-left: 280px; padding: 3rem; transition: 0.3s; }
-        .tab-section { display: none; animation: fadeUp 0.5s ease; }
+        .admin-main { flex: 1; margin-left: 280px; padding: 2rem 3rem; transition: 0.3s; min-width: 0; }
+        .tab-section { display: none; max-width: 1200px; margin: 0 auto; animation: fadeUp 0.5s ease; }
         .tab-section.active { display: block; }
 
         /* Mobile Overlay */
@@ -56,7 +56,7 @@
         .card-info h3 { font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; margin: 0; color: #fff; line-height: 1; }
 
         /* UI Overhaul */
-        .admin-top-bar { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2rem; padding: 1.25rem 1.5rem; background: rgba(212,168,83,0.05); border: 1px solid rgba(212,168,83,0.12); border-radius: 16px; }
+        .admin-top-bar { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2rem; padding: 1rem 1.5rem; background: rgba(212,168,83,0.05); border: 1px solid rgba(212,168,83,0.15); border-radius: 16px; max-width: 1200px; margin: 0 auto 2rem; }
         .top-title { display: block; font-size: 1.1rem; font-family: 'Cormorant Garamond', serif; letter-spacing: 0.08em; color: var(--gold); }
         .top-subtitle { margin: 0.3rem 0 0; color: var(--text-muted); font-size: 0.9rem; }
         .user-badge { display: flex; align-items: center; gap: 0.95rem; padding: 0.65rem 0.95rem; border-radius: 999px; background: rgba(255,255,255,0.04); border: 1px solid rgba(212,168,83,0.15); }
@@ -257,11 +257,16 @@
             .stats-grid { grid-template-columns: 1fr; gap: 1rem; }
             .dash-card { padding: 1.5rem; }
             .card-info h3 { font-size: 1.8rem; }
-            .form-grid { grid-template-columns: 1fr; }
-            .modal-form { padding: 1.25rem; border-radius: 12px; width: 95%; max-height: 90vh; }
+            .form-grid { grid-template-columns: 1fr; gap: 1rem; }
+            .modal-form { padding: 1.5rem; border-radius: 12px; width: 98%; max-height: 95vh; }
             .admin-table-wrap { overflow-x: auto; }
             table { min-width: 600px; }
             .btn-plus { width: 100%; justify-content: center; }
+            
+            /* Responsive Upload Section */
+            .upload-container { flex-direction: column; text-align: center; gap: 1.5rem !important; }
+            .upload-container img { width: 120px !important; height: 120px !important; margin: 0 auto; }
+            .upload-container .btn-secondary { width: 100%; padding: 12px !important; }
         }
 
 
@@ -474,7 +479,9 @@
                                 <label>Main Category</label>
                                 <select id="cat-mgr-select" class="admin-select">
                                     <option value="perfume">Perfume Collection</option>
-                                    <option value="dates">Dry Dates</option>
+                                    <option value="dates">Dry Fruits</option>
+                                    <option value="bakhoor">Bakhoor</option>
+                                    <option value="gift_pack">Gift Pack / Combopack</option>
                                     <option value="other">Other Varieties</option>
                                 </select>
                             </div>
@@ -525,7 +532,9 @@
                     <label>Category</label>
                     <select id="p-cat" class="admin-select" required>
                         <option value="perfume">Perfume</option>
-                        <option value="dates">Dry Dates</option>
+                        <option value="dates">Dry Fruits</option>
+                        <option value="bakhoor">Bakhoor</option>
+                        <option value="gift_pack">Gift Pack / Combopack</option>
                         <option value="other">Other Varieties</option>
                     </select>
                 </div>
@@ -542,17 +551,17 @@
                 </div>
                 <div class="form-group full">
                     <label>Product Image</label>
-                    <div style="display:flex; align-items:center; gap:15px; background:rgba(212,168,83,0.05); padding:15px; border-radius:10px; border:1px solid var(--gold-border);">
-                        <img id="img-preview" src="logo.jpg" alt="Preview" style="width:70px; height:70px; object-fit:cover; border-radius:8px; border:1px solid var(--gold);">
+                    <div class="upload-container" style="display:flex; align-items:center; gap:15px; background:rgba(212,168,83,0.05); padding:20px; border-radius:12px; border:1px solid var(--gold-border);">
+                        <img id="img-preview" src="logo.jpg" alt="Preview" style="width:80px; height:80px; object-fit:cover; border-radius:10px; border:2px solid var(--gold); transition: 0.3s;">
                         <div style="flex:1;">
-                            <button type="button" class="btn-secondary" onclick="document.getElementById('p-img-file').click()" style="padding:10px 18px; font-size:13px;">
+                            <button type="button" class="btn-plus" onclick="document.getElementById('p-img-file').click()" style="padding:10px 20px; font-size:13px; margin-bottom: 5px;">
                                 <i class="ri-upload-cloud-2-line"></i> Select Image
                             </button>
                             <input type="file" id="p-img-file" accept="image/*" style="display:none;">
-                            <p id="upload-status-text" style="font-size:11px; color:var(--text-muted); margin-top:5px;">Select file locally (automates ImgBB upload)</p>
+                            <p id="upload-status-text" style="font-size:11px; color:var(--text-secondary); margin-top:5px; font-weight: 500;">Select file locally (automates ImgBB upload)</p>
                         </div>
                     </div>
-                    <input type="text" id="p-img-path" class="admin-input" placeholder="Image URL (yaha link bhi daal sakte ho)" style="margin-top:10px;">
+                    <input type="text" id="p-img-path" class="admin-input" placeholder="Or paste Image URL here" style="margin-top:12px;">
                 </div>
                 <div class="form-group">
                     <label>Special Tag</label>

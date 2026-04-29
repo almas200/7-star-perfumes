@@ -1,0 +1,937 @@
+[
+    {
+        "name": "Asad bourbon",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1950
+            }
+        ],
+        "price": 1950,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p47.jpeg"
+    },
+    {
+        "name": "I am white",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1500
+            }
+        ],
+        "price": 1500,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p48.jpeg"
+    },
+    {
+        "name": "Asad",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1950
+            }
+        ],
+        "price": 1950,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p49.jpeg"
+    },
+    {
+        "name": "Badee al oud glory",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 2200
+            }
+        ],
+        "price": 2200,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p50.jpeg"
+    },
+    {
+        "name": "Badee al oud amythist",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 2200
+            }
+        ],
+        "price": 2200,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p51.jpeg"
+    },
+    {
+        "name": "Khamrah",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 2580
+            }
+        ],
+        "price": 2580,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p52.jpeg"
+    },
+    {
+        "name": "Khamrah qahwa",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 2580
+            }
+        ],
+        "price": 2580,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p53.jpeg"
+    },
+    {
+        "name": "Atlas",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "55 ml",
+                "price": 2380
+            }
+        ],
+        "price": 2380,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p54.jpeg"
+    },
+    {
+        "name": "Mahir gold",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 2280
+            }
+        ],
+        "price": 2280,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p55.jpeg"
+    },
+    {
+        "name": "Ragba perfume+ deo",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1350
+            }
+        ],
+        "price": 1350,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p56.jpeg"
+    },
+    {
+        "name": "Najdia perfume+ deo",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1430
+            }
+        ],
+        "price": 1430,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p57.jpeg"
+    },
+    {
+        "name": "Fakhar lattafa man",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1950
+            }
+        ],
+        "price": 1950,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p58.jpeg"
+    },
+    {
+        "name": "Adeeb",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "80 ml",
+                "price": 1900
+            }
+        ],
+        "price": 1900,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p59.jpeg"
+    },
+    {
+        "name": "Qaeed",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1750
+            }
+        ],
+        "price": 1750,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p60.jpeg"
+    },
+    {
+        "name": "Pure musk perfume+ deo",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1430
+            }
+        ],
+        "price": 1430,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p61.jpeg"
+    },
+    {
+        "name": "Eclaire",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 2300
+            }
+        ],
+        "price": 2300,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p62.jpeg"
+    },
+    {
+        "name": "Velvet oud",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1700
+            }
+        ],
+        "price": 1700,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p63.jpeg"
+    },
+    {
+        "name": "Velvet rose",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1700
+            }
+        ],
+        "price": 1700,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p64.jpeg"
+    },
+    {
+        "name": "Pure oudi perfume+ deo",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1430
+            }
+        ],
+        "price": 1430,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p65.jpeg"
+    },
+    {
+        "name": "Island dreams",
+        "brand": "Khadlaj",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1900
+            }
+        ],
+        "price": 1900,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Khadlaj",
+        "available": true,
+        "featured": false,
+        "img": "p66.jpeg"
+    },
+    {
+        "name": "Shiyaaka snow",
+        "brand": "Khadlaj",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 2150
+            }
+        ],
+        "price": 2150,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Khadlaj",
+        "available": true,
+        "featured": false,
+        "img": "p67.jpeg"
+    },
+    {
+        "name": "Yara",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1930
+            }
+        ],
+        "price": 1930,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p68.jpeg"
+    },
+    {
+        "name": "Asad elixir",
+        "brand": "Lattafa",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1950
+            }
+        ],
+        "price": 1950,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Lattafa",
+        "available": true,
+        "featured": false,
+        "img": "p69.jpeg"
+    },
+    {
+        "name": "Titanium",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 900
+            }
+        ],
+        "price": 900,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p70.jpeg"
+    },
+    {
+        "name": "Sacred love",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "50 ml",
+                "price": 900
+            }
+        ],
+        "price": 900,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p71.jpeg"
+    },
+    {
+        "name": "Aurum summer",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "75 ml",
+                "price": 2400
+            }
+        ],
+        "price": 2400,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p72.jpeg"
+    },
+    {
+        "name": "Aurum",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "75 ml",
+                "price": 2400
+            }
+        ],
+        "price": 2400,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p73.jpeg"
+    },
+    {
+        "name": "Blu",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "90 ml",
+                "price": 1800
+            }
+        ],
+        "price": 1800,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p74.jpeg"
+    },
+    {
+        "name": "Kuro",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "90 ml",
+                "price": 1800
+            }
+        ],
+        "price": 1800,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p75.jpeg"
+    },
+    {
+        "name": "Shiro",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "90 ml",
+                "price": 2100
+            }
+        ],
+        "price": 2100,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p76.jpeg"
+    },
+    {
+        "name": "Wisal",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "50 ml",
+                "price": 1800
+            }
+        ],
+        "price": 1800,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p77.jpeg"
+    },
+    {
+        "name": "Wisal layl",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "50 ml",
+                "price": 3000
+            }
+        ],
+        "price": 3000,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p78.jpeg"
+    },
+    {
+        "name": "Oud nirvana",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1200
+            }
+        ],
+        "price": 1200,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p79.jpeg"
+    },
+    {
+        "name": "Shine",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "75 ml",
+                "price": 1800
+            }
+        ],
+        "price": 1800,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p80.jpeg"
+    },
+    {
+        "name": "Neutron",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 900
+            }
+        ],
+        "price": 900,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p81.jpeg"
+    },
+    {
+        "name": "Royal attar gift set",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "5 ml 4 attar",
+                "price": 1500
+            }
+        ],
+        "price": 1500,
+        "category": "gift_pack",
+        "type": "gift_pack",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p82.jpg"
+    },
+    {
+        "name": "Gold series",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "5 ml 4 attar",
+                "price": 780
+            }
+        ],
+        "price": 780,
+        "category": "gift_pack",
+        "type": "gift_pack",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p83.jpg"
+    },
+    {
+        "name": "Oud of the rocks",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1200
+            }
+        ],
+        "price": 1200,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p84.jpeg"
+    },
+    {
+        "name": "Aristocrat",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "75 ml",
+                "price": 3000
+            }
+        ],
+        "price": 3000,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p85.jpeg"
+    },
+    {
+        "name": "Colaba mukhallat",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "14 ml",
+                "price": 1050
+            }
+        ],
+        "price": 1050,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p86.jpeg"
+    },
+    {
+        "name": "Khafooq",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "18 ml",
+                "price": 1200
+            }
+        ],
+        "price": 1200,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p87.jpeg"
+    },
+    {
+        "name": "Oud mukhallat",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "6 ml",
+                "price": 1500
+            }
+        ],
+        "price": 1500,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p88.jpeg"
+    },
+    {
+        "name": "Mizyaan",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "14 ml",
+                "price": 1200
+            }
+        ],
+        "price": 1200,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p89.jpeg"
+    },
+    {
+        "name": "Buraq",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "20 ml",
+                "price": 1500
+            }
+        ],
+        "price": 1500,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p90.jpeg"
+    },
+    {
+        "name": "Tempest",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "12 ml",
+                "price": 600
+            }
+        ],
+        "price": 600,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p91.jpeg"
+    },
+    {
+        "name": "Musk rose",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "12 ml",
+                "price": 600
+            }
+        ],
+        "price": 600,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p92.jpeg"
+    },
+    {
+        "name": "Silver shade",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "100 ml",
+                "price": 1200
+            }
+        ],
+        "price": 1200,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p93.jpeg"
+    },
+    {
+        "name": "Royal Misk rijali",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "10 ml",
+                "price": 779
+            }
+        ],
+        "price": 779,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p94.jpeg"
+    },
+    {
+        "name": "Royal oud kuwaiti",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "10 ml",
+                "price": 779
+            }
+        ],
+        "price": 779,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p95.jpeg"
+    },
+    {
+        "name": "Al oud bakhoor",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "100 gm",
+                "price": 480
+            }
+        ],
+        "price": 480,
+        "category": "bakhoor",
+        "type": "bakhoor",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "b1.jpg"
+    },
+    {
+        "name": "Dakhoon musk rose",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "100 gm",
+                "price": 450
+            }
+        ],
+        "price": 450,
+        "category": "bakhoor",
+        "type": "bakhoor",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "b2.jpg"
+    },
+    {
+        "name": "Dakhoon rashid",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "100 gm",
+                "price": 600
+            }
+        ],
+        "price": 600,
+        "category": "bakhoor",
+        "type": "bakhoor",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "b3.jpg"
+    },
+    {
+        "name": "Dakhoon hanan",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "100 gm",
+                "price": 360
+            }
+        ],
+        "price": 360,
+        "category": "bakhoor",
+        "type": "bakhoor",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "b4.jpg"
+    },
+    {
+        "name": "Aurum",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "10 ml",
+                "price": 585
+            }
+        ],
+        "price": 585,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p96.jpeg"
+    },
+    {
+        "name": "Wisal dhahab",
+        "brand": "Ajmal",
+        "sizes": [
+            {
+                "label": "50 ml",
+                "price": 2400
+            }
+        ],
+        "price": 2400,
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Premium imported fragrance from Ajmal",
+        "available": true,
+        "featured": false,
+        "img": "p97.jpeg"
+    }
+]

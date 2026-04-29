@@ -29,5 +29,17 @@ service cloud.firestore {
       allow read: if true;
       allow write: if isAdmin();
     }
+    
+    // Categories: public read, admin write
+    match /categories/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    // Stats: public read, public update
+    match /stats/{doc} {
+      allow read: if true;
+      allow write: if true;
+    }
   }
 }

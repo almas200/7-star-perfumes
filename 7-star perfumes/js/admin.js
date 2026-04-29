@@ -403,13 +403,17 @@ function renderStats() {
 const CATEGORY_MAP = {
     perfume: ['Oud', 'Tobacco', 'Arabian', 'Floral', 'Woody', 'Fresh', 'Musky', 'Attar'],
     dates: ['Ajwa', 'Medjool', 'Kalmi', 'Mabroom', 'Sukkari', 'Safawi'],
-    other: ['Incense', 'Bukhoor', 'Gift Set', 'Accessories']
+    bakhoor: ['Premium', 'Standard', 'Woody', 'Floral'],
+    gift_pack: ['Combo Set', 'Premium Box', 'Standard Box'],
+    other: ['Incense', 'Accessories']
 };
 
 const CATEGORY_FALLBACKS = {
     perfume: ['Oud', 'Tobacco', 'Arabian', 'Floral', 'Woody', 'Fresh', 'Musky', 'Attar'],
     dates: ['Ajwa', 'Medjool', 'Kalmi', 'Mabroom', 'Sukkari', 'Safawi'],
-    other: ['Incense', 'Bukhoor', 'Gift Set', 'Accessories']
+    bakhoor: ['Premium', 'Standard', 'Woody', 'Floral'],
+    gift_pack: ['Combo Set', 'Premium Box', 'Standard Box'],
+    other: ['Incense', 'Accessories']
 };
 
 function updateTypeOptions(cat) {

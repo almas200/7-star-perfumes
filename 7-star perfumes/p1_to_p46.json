@@ -1,0 +1,472 @@
+[
+    {
+        "name": "Greek Tobacco",
+        "brand": "Ibraaq",
+        "price": "2900",
+        "img": "p3.jpeg",
+        "size": "",
+        "category": "perfume",
+        "type": "tobacco",
+        "description": "A bold, earthy tobacco accord with Mediterranean warmth. For those who command presence."
+    },
+    {
+        "name": "Blue Oud",
+        "brand": "Ibraaq",
+        "price": "2600",
+        "img": "p1.jpeg",
+        "size": "",
+        "category": "perfume",
+        "type": "oud",
+        "description": "A mesmerising blend of rich oud and refreshing aquatic notes. A signature scent of royalty."
+    },
+    {
+        "name": "9 PM Night Out",
+        "brand": "Afnan",
+        "price": "3150",
+        "img": "https://i.ibb.co/Jw303R74/p25.jpg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "arabian",
+        "description": "A seductive evening fragrance with deep, magnetic notes from Afnan."
+    },
+    {
+        "name": "Summer Oud",
+        "brand": "Ahmed Al Maghribi",
+        "price": "2700",
+        "img": "p11.jpeg",
+        "size": "60ml",
+        "category": "perfume",
+        "type": "oud",
+        "description": "Summer Oud by Ahmed Al Maghribi \u2014 Light oud for warm days. 60ml bottle blending fresh citrus with classic oud for a modern twist."
+    },
+    {
+        "name": "Hawas Elixir",
+        "brand": "Rasasi",
+        "price": "2500",
+        "img": "p38.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Concentrated luxury. An intense elixir that leaves a powerful trail."
+    },
+    {
+        "name": "Rose Noir",
+        "brand": "Ahmed Al Maghribi",
+        "price": "2500",
+        "img": "19.jpeg",
+        "size": "75ml",
+        "category": "perfume",
+        "type": "floral",
+        "description": "Rose Noir by Ahmed Al Maghribi \u2014 A dramatic and seductive 75ml floral fragrance combining black rose with dark amber undertones."
+    },
+    {
+        "name": "9pm",
+        "brand": "Afnan",
+        "price": "2500",
+        "img": "p28.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "arabian",
+        "description": "The legendary fresh and sweet fragrance for special occasions."
+    },
+    {
+        "name": "Mukhallat Oud",
+        "brand": "Rasasi",
+        "price": "850",
+        "img": "p43.jpeg",
+        "size": "20ml",
+        "category": "perfume",
+        "type": "oud",
+        "description": "A traditional blend of rich oud and essential oils."
+    },
+    {
+        "name": "Daarej",
+        "brand": "Rasasi",
+        "price": "1400",
+        "img": "p41.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Spicy, sweet, and seductive. A classic oriental fragrance."
+    },
+    {
+        "name": "Musk Rijali",
+        "brand": "Ahmed Al Maghribi",
+        "price": "1150",
+        "img": "p23.jpeg",
+        "size": "12ml",
+        "category": "perfume",
+        "type": "musky",
+        "description": "Musk Rijali by Ahmed Al Maghribi \u2014 A bold masculine musk in a 12ml concentrated attar. Clean, powerful, and long-lasting."
+    },
+    {
+        "name": "Mukhallat Abiyad",
+        "brand": "Afnan",
+        "price": "900",
+        "img": "p32.jpeg",
+        "size": "20ml",
+        "category": "perfume",
+        "type": "attar",
+        "description": "A sophisticated blend of Arabian oils for a divine scent profile."
+    },
+    {
+        "name": "Bin Shaikh",
+        "brand": "Ahmed Al Maghribi",
+        "price": "4450",
+        "img": "p14.jpeg",
+        "size": "90ml",
+        "category": "perfume",
+        "type": "woody",
+        "description": "Bin Shaikh by Ahmed Al Maghribi \u2014 Commanding and majestic 90ml woody perfume with strong sillage. A true statement fragrance."
+    },
+    {
+        "name": "9pm Elixir",
+        "brand": "Afnan",
+        "price": "2500",
+        "img": "p27.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Powerful, intense, and long-lasting elixir for the night."
+    },
+    {
+        "name": "Kaaf",
+        "brand": "Ahmed Al Maghribi",
+        "price": "1850",
+        "img": "p9.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "woody",
+        "description": "Kaaf by Ahmed Al Maghribi \u2014 A rich woody 100ml perfume with deep earthy undertones. Great value for everyday luxury wear."
+    },
+    {
+        "name": "Hawas Fire",
+        "brand": "Rasasi",
+        "price": "3200",
+        "img": "p35.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "tobacco",
+        "description": "A bold and spicy take on the Hawas DNA with warm, smoky undertones."
+    },
+    {
+        "name": "Musk Abiyad",
+        "brand": "Afnan",
+        "price": "900",
+        "img": "p31.jpeg",
+        "size": "20ml",
+        "category": "perfume",
+        "type": "attar",
+        "description": "Pure white musk attar, clean and exceptionally long-lasting."
+    },
+    {
+        "name": "Blu Diamond Aqua",
+        "brand": "Ibraaq",
+        "price": "2600",
+        "img": "p2.jpeg",
+        "size": "",
+        "category": "perfume",
+        "type": "fresh",
+        "description": "Light, radiant, and unforgettable. Perfect for all-day freshness with a diamond-like sparkle."
+    },
+    {
+        "name": "9pm Rebel",
+        "brand": "Afnan",
+        "price": "2500",
+        "img": "p26.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "arabian",
+        "description": "A bold and rebellious twist on the classic 9pm fragrance."
+    },
+    {
+        "name": "Hawas Him",
+        "brand": "Rasasi",
+        "price": "2450",
+        "img": "p34.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "fresh",
+        "description": "The OG masterpiece. Aquatic, fruity, and incredibly long-lasting."
+    },
+    {
+        "name": "Aswadi",
+        "brand": "Ahmed Al Maghribi",
+        "price": "2400",
+        "img": "p21.jpeg",
+        "size": "10ml",
+        "category": "perfume",
+        "type": "attar",
+        "description": "Aswadi by Ahmed Al Maghribi \u2014 A rich and dark 10ml attar with powerful musky and oud notes. Pure oil, no alcohol."
+    },
+    {
+        "name": "Dahnul Oud Abiyad",
+        "brand": "Afnan",
+        "price": "900",
+        "img": "p30.jpeg",
+        "size": "20ml",
+        "category": "perfume",
+        "type": "attar",
+        "description": "Concentrated perfume oil with pure white oud notes."
+    },
+    {
+        "name": "Marz",
+        "brand": "Ahmed Al Maghribi",
+        "price": "3600",
+        "img": "p7.jpeg",
+        "size": "60ml",
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Marz by Ahmed Al Maghribi \u2014 A bold and captivating 60ml Arabian fragrance with rich, long-lasting notes perfect for evenings and special occasions."
+    },
+    {
+        "name": "Spanish Tobacco",
+        "brand": "Ibraaq",
+        "price": "2900",
+        "img": "p6.jpeg",
+        "size": "",
+        "category": "perfume",
+        "type": "tobacco",
+        "description": "Passionate Spanish tobacco wrapped in floral and woody warmth. Passion in a bottle."
+    },
+    {
+        "name": "Romance Attar",
+        "brand": "Rasasi",
+        "price": "750",
+        "img": "p45.jpeg",
+        "size": "14ml",
+        "category": "perfume",
+        "type": "floral",
+        "description": "A sweet, romantic, and airy fragrance oil for all-day freshness."
+    },
+    {
+        "name": "dates   kalmiii",
+        "brand": "Surrati",
+        "price": "1500",
+        "img": "https://i.ibb.co/8gbQNvPk/dates-2.jpg",
+        "size": "100ml",
+        "category": "dates",
+        "type": "kalmi",
+        "description": "it is a makkka special dates  excellletnt"
+    },
+    {
+        "name": "Ahl",
+        "brand": "Ahmed Al Maghribi",
+        "price": "3600",
+        "img": "p8.jpeg",
+        "size": "60ml",
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Ahl by Ahmed Al Maghribi \u2014 Warm and welcoming 60ml Arabian perfume, crafted for those who appreciate timeless fragrance traditions."
+    },
+    {
+        "name": "Ignite Oud",
+        "brand": "Ahmed Al Maghribi",
+        "price": "2950",
+        "img": "p15.jpeg",
+        "size": "60ml",
+        "category": "perfume",
+        "type": "oud",
+        "description": "Ignite Oud by Ahmed Al Maghribi \u2014 A fiery and intense 60ml oud fragrance that commands attention from the moment you enter the room."
+    },
+    {
+        "name": "Rawdah Ahmed",
+        "brand": "Ahmed Al Maghribi",
+        "price": "2400",
+        "img": "p24.jpeg",
+        "size": "10ml",
+        "category": "perfume",
+        "type": "attar",
+        "description": "Rawdah Ahmed \u2014 Signature 10ml attar from Ahmed brand. A pure floral-oud blend that embodies the luxury of Arabian perfumery."
+    },
+    {
+        "name": "Hawas Black",
+        "brand": "Rasasi",
+        "price": "2550",
+        "img": "p36.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "woody",
+        "description": "A darker, more intense version of Hawas with deep woody and musky notes."
+    },
+    {
+        "name": "Arba Wardat",
+        "brand": "Rasasi",
+        "price": "1650",
+        "img": "p42.jpeg",
+        "size": "30ml",
+        "category": "perfume",
+        "type": "floral",
+        "description": "Four roses. A beautiful, high-quality concentrated perfume oil."
+    },
+    {
+        "name": "Rawdah Attar",
+        "brand": "Ahmed Al Maghribi",
+        "price": "2400",
+        "img": "p20.jpeg",
+        "size": "10ml",
+        "category": "perfume",
+        "type": "attar",
+        "description": "Rawdah Attar by Ahmed Al Maghribi \u2014 Pure 10ml concentrated attar of the iconic Rawdah garden scent. Alcohol-free, long-lasting."
+    },
+    {
+        "name": "Kiswah",
+        "brand": "Ahmed Al Maghribi",
+        "price": "2400",
+        "img": "p22.jpeg",
+        "size": "10ml",
+        "category": "perfume",
+        "type": "attar",
+        "description": "Kiswah by Ahmed Al Maghribi \u2014 Named after the sacred cloth of the Kaaba, this 10ml attar is a spiritual and luxurious pure oil."
+    },
+    {
+        "name": "Cuban Tobacco",
+        "brand": "Ibraaq",
+        "price": "2900",
+        "img": "p5.jpeg",
+        "size": "",
+        "category": "perfume",
+        "type": "tobacco",
+        "description": "Classic Cuban tobacco with a sophisticated smoky finish. Timeless and distinguished."
+    },
+    {
+        "name": "Oud and Rose",
+        "brand": "Ahmed Al Maghribi",
+        "price": "2800",
+        "img": "p10.jpeg",
+        "size": "60ml",
+        "category": "perfume",
+        "type": "oud",
+        "description": "Oud and Rose by Ahmed Al Maghribi \u2014 A romantic blend of deep oud and fresh roses in a 60ml bottle. Perfect for gifting."
+    },
+    {
+        "name": "Rawdah",
+        "brand": "Ahmed Al Maghribi",
+        "price": "3050",
+        "img": "p16.jpeg",
+        "size": "50ml",
+        "category": "perfume",
+        "type": "floral",
+        "description": "Rawdah by Ahmed Al Maghribi \u2014 Inspired by lush gardens, this elegant 50ml floral perfume carries the essence of blooming roses and rare florals."
+    },
+    {
+        "name": "Fattan Perfume",
+        "brand": "Rasasi",
+        "price": "1100",
+        "img": "p40.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "fresh",
+        "description": "A dry, earthy, and fresh vetiver fragrance. Incredible value for money."
+    },
+    {
+        "name": "Oud Classic",
+        "brand": "Ahmed Al Maghribi",
+        "price": "1800",
+        "img": "p17.jpeg",
+        "size": "50ml",
+        "category": "perfume",
+        "type": "oud",
+        "description": "Oud Classic by Ahmed Al Maghribi \u2014 A timeless 50ml oud perfume with traditional roots. Rich, warm, and deeply nostalgic."
+    },
+    {
+        "name": "Zumar",
+        "brand": "Ahmed Al Maghribi",
+        "price": "8900",
+        "img": "p12.jpeg",
+        "size": "60ml",
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Zumar by Ahmed Al Maghribi \u2014 A masterpiece of perfumery in a 60ml bottle. Premium, rare blend reserved for connoisseurs."
+    },
+    {
+        "name": "Hawas London",
+        "brand": "Rasasi",
+        "price": "3100",
+        "img": "p37.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "arabian",
+        "description": "Sophisticated and regal fragrance blending European elegance with Arabian depth."
+    },
+    {
+        "name": "Amber Oud Attar",
+        "brand": "Rasasi",
+        "price": "850",
+        "img": "p44.jpeg",
+        "size": "14ml",
+        "category": "perfume",
+        "type": "oud",
+        "description": "Warm amber meets authentic oud in this long-lasting concentrated oil."
+    },
+    {
+        "name": "Oud Mithali",
+        "brand": "Rasasi",
+        "price": "1900",
+        "img": "p46.jpeg",
+        "size": "30ml",
+        "category": "perfume",
+        "type": "oud",
+        "description": "The quintessential Arabian oud. Balanced, deep, and regal."
+    },
+    {
+        "name": "Hawas Ice",
+        "brand": "Rasasi",
+        "price": "2950",
+        "img": "p33.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "fresh",
+        "description": "A refreshing and cool evolution of the legendary Hawas. Perfect for hot days."
+    },
+    {
+        "name": "Shuhrah Perfume",
+        "brand": "Rasasi",
+        "price": "1800",
+        "img": "p39.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "floral",
+        "description": "An iconic floral and leather fragrance that is both unique and long-lasting."
+    },
+    {
+        "name": "Supremacy Collector Edition",
+        "brand": "Afnan",
+        "price": "3450",
+        "img": "p29.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "premium",
+        "description": "Exclusive Collector Edition of the famous Supremacy line."
+    },
+    {
+        "name": "Oud Couture",
+        "brand": "Ahmed Al Maghribi",
+        "price": "1750",
+        "img": "p18.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "oud",
+        "description": "Oud Couture by Ahmed Al Maghribi \u2014 High-fashion oud in a 100ml bottle. A modern luxurious take on classical Arabian oud."
+    },
+    {
+        "name": "Blu by Ahmed",
+        "brand": "Ahmed Al Maghribi",
+        "price": "1750",
+        "img": "p13.jpeg",
+        "size": "100ml",
+        "category": "perfume",
+        "type": "fresh",
+        "description": "Blu by Ahmed Al Maghribi \u2014 A refreshing 100ml fresh fragrance with aquatic and blue notes. Ideal for daily wear."
+    },
+    {
+        "name": "Brazilian Tobacco",
+        "brand": "Ibraaq",
+        "price": "2800",
+        "img": "p4.jpeg",
+        "size": "",
+        "category": "perfume",
+        "type": "tobacco",
+        "description": "Rich tobacco with sweet tropical undertones. An exotic journey from Brazil."
+    }
+]
