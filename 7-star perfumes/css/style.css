@@ -2121,6 +2121,8 @@ footer {
     #cart-fab { display: none !important; }
     #floating-hub { bottom: 85px; left: 1.5rem; }
     
+    .cart-foot { padding-bottom: 85px; }
+    
     .nav-wa-btn { display: none; }
     .hero-title { font-size: clamp(2rem, 12vw, 3.5rem) !important; line-height: 1.1; margin-bottom: 0.5rem; }
     .hero-subtitle { font-size: 14px !important; }
