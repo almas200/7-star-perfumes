@@ -753,7 +753,7 @@ ${itemsList}
 
 ✅ *Method:* Cash on Pickup
 ✨ Thank you for shopping with Seven Star!
-🌐 https://sevenstarperfume.com`;
+🌐 https://seven-star-perfume.web.app`;
 }
 
 function buildSingleProductWA(p, size) {
